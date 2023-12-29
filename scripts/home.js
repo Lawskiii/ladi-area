@@ -125,7 +125,7 @@ function removeMessage(){
 }
 
 function changeWeb(){
-  location.replace('https://lawskiii.github.io/lawskii-property/memories.html')
+  location.replace('https://lawskiii.github.io/ladi-area/memories.html')
 }
 
 
