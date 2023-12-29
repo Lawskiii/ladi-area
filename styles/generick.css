@@ -1,0 +1,7 @@
+/*GENERIC CLASS */
+body{
+  background: linear-gradient(to right, rgb(255, 125, 167), rgb(255, 211, 222));
+  height: 100vh;
+  padding-bottom: 5000px;
+  
+}

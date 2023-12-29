@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="display: flex; flex-direction: row; background-color: bisque;">
+        <div style="background-color: lightblue;">div1</div>
+        <div style="background-color: lightpink;">div2 <p>text</p></div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px;">
+        <div style="background-color: lightblue; width: 200px;">200px</div>
+        <div style="background-color: lightpink; flex: 1;">flex: 1</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px;">
+        <div style="background-color: lightblue; width: 200px;">200px</div>
+        <div style="background-color: lightpink; flex: 1;">flex: 1</div>
+        <div style="background-color: lightblue; flex: 1;">flex: 2</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px; height: 70px; border-width: 1px;
+    border-style: solid; border-color: red; justify-content: space-between;">
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightpink; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row; margin-top: 30px; height: 70px; border-width: 1px;
+    border-style: solid; border-color: red; align-items: center;justify-content: space-between;">
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+        <div style="background-color: lightpink; width: 100px;">100px</div>
+        <div style="background-color: lightblue; width: 100px;">100px</div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px;">
+        <div style="width: 100px;background-color: lightblue; display: flex; justify-content: center;">
+            <p style="background-color: black; color: white; ">text</p>
+        </div>
+        <div style="width: 200px;background-color: lightpink;"></div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px; flex-direction: row;height: 50px;">
+        <div style="width: 200px;background-color: lightblue;">
+            <div>row1</div>
+            <div style="display: flex; justify-content: space-between;flex-direction: row;">
+                <p style="background-color: black; color: white; margin: 0;">row2</p>
+                <p style="background-color: black; color: white; margin: 0;">row3</p>
+            </div>
+            
+        </div>
+        <div style="width: 100px;background-color: lightpink;"></div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; margin-top: 30px; height: 300px;">
+        <div style="background-color: lightblue; flex: 1;">flex 1</div>
+        <div style="background-color: lightpink; flex: 1;">flex: 1</div>
+        <div style="background-color: lightblue; flex: 1;">flex 1</div>
+    </div>
+</body>
+</html>

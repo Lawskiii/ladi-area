@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ladi area</title>
+
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/generick.css">
+  <link rel="stylesheet" href="styles/utility.css">
+  <link rel="stylesheet" href="styles/animation.css">
+  <link rel="stylesheet" href="styles/text.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<style>
+
+</style>
+<body>
+  
+  <div id="verificationCont" style="display: flex; justify-content: center;">
+    <div id="verification"  class="verifyContainer"> 
+      <div class="verifyHeader" style="">
+        <div style="margin-left: 40px;">
+          <p class="verification-font" style="margin: 0; ">select all image of</p>
+          <p class="verification-font" style="margin: 0; font-size: 25px;">My Love</p>
+        </div>
+        
+        
+      </div>
+
+      <div style=" width: 100%; height: 678px; display: grid; grid-template-columns: 216px 216px 216px; row-gap: 15px; column-gap: 15px; margin-bottom: 15px;">
+        <div id="1" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(1);"><img draggable="false" src="photo/picture_1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+        </div>
+
+
+        <div id="2" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(2);"><img draggable="false" src="photo/picture_2.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+        </div>
+        <div id="3" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(3);"><img draggable="false" src="photo/picture_3.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+        </div>
+        <div id="4" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(4);"><img draggable="false" src="photo/picture_4.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+        </div>
+        <div id="5" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(5);"><img draggable="false" src="photo/picture_5.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+        </div>
+        <div id="6" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(6);"><img draggable="false" src="photo/picture_6.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+        </div>
+        <div id="7" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(7);"><img draggable="false" src="photo/picture_7.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+          
+          
+        </div>
+        <div id="8" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(8);"><img draggable="false" src="photo/picture_8.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+          
+          
+        </div>
+        <div id="9" style=" width: 216px; height: 216px;">
+          <button class="verifyButton" onclick="verify(9);"><img draggable="false" src="photo/picture_9.png" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+          </button> 
+          
+          
+        </div>
+        
+      </div>
+
+      <div style=" display: flex; justify-content: end; flex-direction: row; ">
+        <button class="verify-button" style="width: 216px; height: 62px;" onclick="finishVerify();"><p class="verification-font">Verify</p></button>
+        
+        
+      </div>
+      
+    </div>
+    
+    
+  </div>
+
+  <div class="text">
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-1"></p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-2">
+        </p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-3">
+        </p>
+      </div>
+    </div>
+    
+    
+    
+      
+    
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-4">
+        </p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-5">
+        </p>
+      </div>
+    </div>
+    
+    <div class="container">
+        <div class="text-container">
+        <p class="text-messages-6">
+        </p>
+      </div>
+    </div>
+    
+    <div class="container">
+        <div class="text-container">
+      
+        <p class="text-messages-7">
+        </p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-8">
+        </p>
+      </div>
+      
+    </div>
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-9">
+        </p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-10">
+    
+        </p>
+      </div>
+      
+    </div>
+    
+    <div class="container">
+      <div class="text-container">
+        <p class="text-messages-11">
+    
+        </p>
+      </div>
+      
+    </div>  
+  </div>
+
+  
+</body>
+
+<script src="scripts/home.js"></script>
+</html>

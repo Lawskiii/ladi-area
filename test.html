@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequential Animations</title>
+    <style>
+        @keyframes animation1 {
+            /* Define your first animation keyframes */
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes animation2 {
+            /* Define your second animation keyframes */
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(100px);
+            }
+        }
+
+        .text-message-1 {
+            animation: animation2 2s  reverse;
+        }
+
+        .text-message-1-rev {
+            animation: animation2 2s alternate infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-message text-message-1-rev">Hello, World!</div>
+
+    <script>
+        // Get the element
+        const textElement = document.querySelector('.text-message');
+        const textElementa = document.querySelector('.text-message-1-rev');
+
+        setTimeout(asd, 2000);
+        function asd(){
+          textElementa.style.animationPlayState = 'paused';
+        }
+
+        setTimeout(assd, 4000);
+        function assd(){
+          textElementa.style.animationPlayState = 'running';
+        }
+    </script>
+</body>
+</html>

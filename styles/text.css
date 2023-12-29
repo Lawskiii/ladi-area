@@ -1,0 +1,187 @@
+.text-container{
+  display: inline-block;
+}
+.container{
+  display: block;
+}
+
+.text-container p{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(71, 71, 71);
+  font-size: 40px;
+
+  letter-spacing: 2px;
+  border-right: 3px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+.text-message-1,
+.text-message-2
+{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(71, 71, 71);
+  font-size: 50px;
+
+  letter-spacing: 2px;
+  border-right: 3px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+
+
+
+.text-message-1{
+  animation: 
+    typing 2s steps(46) ,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-2{
+  animation: 
+    typing 2s steps(24),
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-3{
+  animation: 
+    typing 2s  steps(56),
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-4{
+  animation: 
+    typing 2s   steps(79),
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-5{
+  animation: 
+    typing 2s  steps(19),
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-6{
+  animation: 
+    typing 2s  steps(16),
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-7{
+  animation: 
+    typing 2s   steps(18),
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-8{
+  animation: 
+    typing 2s  steps(14),
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-9{
+  animation: 
+    typing 2s steps(24),
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-10{
+  animation: 
+    typing 5s steps(96),
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-11{
+  animation: 
+    typing 4s  steps(75),
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+/*reverse*/
+.text-message-1-rev{
+  animation: 
+    typing 2s steps(46) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+  
+}
+
+.text-message-2-rev{
+  animation: 
+    typing 40s .5s steps(24) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-3-rev{
+  animation: 
+    typing 40s .5s  steps(56) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-4-rev{
+  animation: 
+    typing 40s .5s   steps(79) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-5-rev{
+  animation: 
+    typing 40s .5s steps(19) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-6-rev{
+  animation: 
+    typing 40s .5s steps(16) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-7-rev{
+  animation: 
+    typing 40s .5s steps(18) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+.text-message-8-rev{
+  animation: 
+    typing 40s .5s steps(14) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-9-rev{
+  animation: 
+    typing 35s .5s steps(24) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-10-rev{
+  animation: 
+    typing 35s .5s steps(96) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}
+
+.text-message-11-rev{
+  animation: 
+    typing 35s .5s steps(75) reverse forwards,
+    cursor .4s step-end infinite alternate
+  ;
+}

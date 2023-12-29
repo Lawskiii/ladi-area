@@ -1,0 +1,59 @@
+/*ANIMATIONS */
+@keyframes slideUp{
+  from {
+    transform: translatey(0);
+  }
+
+  to {
+    transform: translateY(-10000px);
+  }
+}
+
+@keyframes opacity{
+  from{
+    opacity: 1;
+  }
+
+  to{
+    opacity: 0;
+  }
+}
+
+@keyframes shake{
+ 25%{
+  transform: translateX(20px);
+ }
+ 50%{
+  transform: translateX(-20px);
+ }
+ 75%{
+  transform: translateX(20px);
+ }
+  
+}
+
+@keyframes cursor{
+    50%{ border-color: transparent;}
+}
+
+@keyframes typing{
+  from{
+    width :0
+  }
+}
+
+.slideUp{
+  animation-name: slideUp;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+
+.shake{
+  animation-name: shake;
+  animation-duration: .3s;
+}
+
+.opacity{
+  animation: opacity 3s ease-in forwards;
+}
+/*ANIMATIONS */
