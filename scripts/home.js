@@ -126,6 +126,7 @@ function removeMessage(){
 
 function changeWeb(){
   location.replace('https://lawskiii.github.io/ladi-area/memories.html')
+  console.log('NIGGA');
 }
 
 
